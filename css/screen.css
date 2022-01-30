@@ -86,7 +86,7 @@ footer {
   border-radius: 3px;
 }
 #introduction {
-  background-image: url("../img/stopa-rocnik-5-2500x1667-motiv.jpg");
+  background-image: url('../img/stopa-rocnik-5-2500x1667-motiv.jpg');
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -202,41 +202,27 @@ footer {
   /* header */
   --header-background-color: #f06843;
   --header-font-color: var(--font-color);
-  --header-navigation-background-color: var(
-    --homepage-introduction-background-gradient-1-color
-  );
+  --header-navigation-background-color: var(--homepage-introduction-background-gradient-1-color);
   --header-navigation-font-color: #112a46;
   --header-navigation-current-background-color: var(--header-background-color);
-  --header-navigation-hover-background-color: var(
-    --homepage-introduction-background-general-color
-  );
-  --header-navigation-active-background-color: var(
-    --homepage-introduction-background-gradient-2-color
-  );
+  --header-navigation-hover-background-color: var(--homepage-introduction-background-general-color);
+  --header-navigation-active-background-color: var(--homepage-introduction-background-gradient-2-color);
   /* homepage divider */
   --homepage-divider-background-general-color: #ec4214;
   --homepage-divider-background-gradient-1-color: #f06843;
   --homepage-divider-background-gradient-2-color: #bd340f;
   --homepage-divider-font-color: #ecab14;
-  --homepage-divider-font-size: calc(
-    var(--item-gap) * 2
-  ); /* TODO podle textu, mozna jenom pro mobily */
+  --homepage-divider-font-size: calc(var(--item-gap) * 2); /* TODO podle textu, mozna jenom pro mobily */
   --homepage-divider-height: calc(var(--section-padding) * 1.25);
   /* homepage introduction */
   --homepage-introduction-background-general-color: #9bc4ad;
   --homepage-introduction-background-gradient-1-color: #afd0bd;
   --homepage-introduction-background-gradient-2-color: #6faa89; /* gradient je i v html u polygonu */
   --homepage-introduction-font-color: #003346;
-  --homepage-introduction-date-font-color: var(
-    --homepage-divider-background-gradient-2-color
-  );
+  --homepage-introduction-date-font-color: var(--homepage-divider-background-gradient-2-color);
   --homepage-introduction-line-color: var(--lines-color);
-  --homepage-introduction-announcement-background-color: var(
-    --homepage-introduction-font-color
-  );
-  --homepage-introduction-announcement-font-color: var(
-    --homepage-introduction-background-general-color
-  );
+  --homepage-introduction-announcement-background-color: var(--homepage-introduction-font-color);
+  --homepage-introduction-announcement-font-color: var(--homepage-introduction-background-general-color);
   --homepage-introduction-gap: calc(var(--item-gap) * 0.5);
   /* homepage volume */
   --homepage-volume-background-color: #bbd7c7;
@@ -244,9 +230,7 @@ footer {
   --homepage-volume-font-color: var(--homepage-introduction-font-color);
   --homepage-volume-details-box-border-color: var(--lines-color);
   --homepage-volume-table-stats-border-color: var(--homepage-volume-font-color);
-  --homepage-volume-table-stats-sum-font-color: var(
-    --homepage-volume-font-color
-  );
+  --homepage-volume-table-stats-sum-font-color: var(--homepage-volume-font-color);
   --homepage-volume-photos-background-color: white;
   --homepage-volume-photo-background-color: #bebfc1;
   --homepage-volume-gap: calc(var(--item-gap) * 1.5);
@@ -256,40 +240,24 @@ footer {
   --homepage-trails-heading-color: #4c280f;
   --homepage-trails-font-color: var(--font-color);
   --homepage-trails-table-border-color: var(--lines-color);
-  --homepage-trails-table-hover-border-color: var(
-    --homepage-volume-photo-background-color
-  );
+  --homepage-trails-table-hover-border-color: var(--homepage-volume-photo-background-color);
   --homepage-trails-table-even-background-color: rgba(0, 0, 0, 0.05);
   --homepage-trails-meter-background-color: var(--lines-color);
-  --homepage-trails-map-button-background-color: var(
-    --homepage-divider-background-gradient-1-color
-  );
-  --homepage-trails-map-button-hover-background-color: var(
-    --homepage-divider-background-general-color
-  );
+  --homepage-trails-map-button-background-color: var(--homepage-divider-background-gradient-1-color);
+  --homepage-trails-map-button-hover-background-color: var(--homepage-divider-background-general-color);
   --homepage-trails-map-button-border-color: var(--homepage-trails-font-color);
-  --homepage-trails-map-button-border-visited-color: var(
-    --homepage-trails-table-border-color
-  );
+  --homepage-trails-map-button-border-visited-color: var(--homepage-trails-table-border-color);
   --homepage-trails-legend-color: rgba(0, 0, 0, 0.7);
-  --homepage-trails-files-button-background-color: var(
-    --homepage-trails-map-button-background-color
-  );
-  --homepage-trails-files-button-hover-background-color: var(
-    --homepage-trails-map-button-hover-background-color
-  );
+  --homepage-trails-files-button-background-color: var(--homepage-trails-map-button-background-color);
+  --homepage-trails-files-button-hover-background-color: var(--homepage-trails-map-button-hover-background-color);
   --homepage-trails-description-gap: var(--item-gap);
   /* homepage informations */
   --homepage-informations-background-color: #f7eed9;
   --homepage-informations-font-color: var(--font-color);
-  --homepage-informations-box-border-color: var(
-    --homepage-informations-font-color
-  );
+  --homepage-informations-box-border-color: var(--homepage-informations-font-color);
   --homepage-informations-gap: var(--item-gap);
   /* list */
-  --list-top-background-color: var(
-    --homepage-introduction-background-general-color
-  );
+  --list-top-background-color: var(--homepage-introduction-background-general-color);
   --list-top-font-color: var(--font-color);
   --list-bottom-background-color: var(--homepage-volume-background-color);
   --list-bottom-font-color: var(--font-color);
@@ -299,31 +267,20 @@ footer {
   --list-table-visited-link-underline-color: #878787;
   --list-padding: calc(var(--section-padding) * 0.3);
   --list-gap: calc(var(--item-gap) * 1.5);
-  --list-table-padding: calc(var(--item-gap) * 0.25)
-    calc(var(--item-gap) * 0.35);
+  --list-table-padding: calc(var(--item-gap) * 0.25) calc(var(--item-gap) * 0.35);
   /* detail */
-  --detail-top-background-color: var(
-    --homepage-introduction-background-general-color
-  );
+  --detail-top-background-color: var(--homepage-introduction-background-general-color);
   --detail-top-frame-background-color: var(--detail-top-background-color);
   --detail-top-font-color: var(--font-color);
   --detail-top-frame-border-color: var(--lines-color);
   --detail-bottom-background-color: var(--list-bottom-background-color);
   --detail-frame-background-color: var(--homepage-trails-background-color);
   --detail-frame-font-color: var(--font-color);
-  --detail-trails-table-even-background-color: var(
-    --homepage-trails-table-even-background-color
-  );
-  --detail-paginator-button-background-color: var(
-    --homepage-trails-files-button-background-color
-  );
-  --detail-paginator-button-hover-background-color: var(
-    --homepage-trails-files-button-hover-background-color
-  );
+  --detail-trails-table-even-background-color: var(--homepage-trails-table-even-background-color);
+  --detail-paginator-button-background-color: var(--homepage-trails-files-button-background-color);
+  --detail-paginator-button-hover-background-color: var(--homepage-trails-files-button-hover-background-color);
   --detail-paginator-button-border-color: var(--detail-top-font-color);
-  --detail-paginator-button-border-visited-color: var(
-    --detail-top-frame-border-color
-  );
+  --detail-paginator-button-border-visited-color: var(--detail-top-frame-border-color);
   --detail-top-overflow: calc(var(--section-padding) * 2);
   --details-files-border-color: var(--lines-color);
   --detail-padding: var(--item-gap);
@@ -415,11 +372,11 @@ main.detail > section.animation {
   animation-name: slide-up-25;
 }
 main.homepage > section.introduction > div > a.registration.animation,
-div.paginator > div > a[rel="prev"].animation {
+div.paginator > div > a[rel='prev'].animation {
   animation-name: slide-left;
 }
-div.paginator:first-of-type > div > a[rel="directory"].animation,
-div.paginator:first-of-type > div > a[rel="next"].animation {
+div.paginator:first-of-type > div > a[rel='directory'].animation,
+div.paginator:first-of-type > div > a[rel='next'].animation {
   animation-name: slide-down;
 }
 /* ******************************* */
@@ -450,7 +407,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5;
   background-color: var(--footer-background-color);
   -webkit-font-smoothing: antialiased;
@@ -579,7 +536,7 @@ div.divider {
 div.divider.photo {
   height: 75vh;
   background-color: black;
-  background-image: url("../img/divider-default-photo-2400x1600.jpg");
+  background-image: url('../img/divider-default-photo-2400x1600.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -765,7 +722,7 @@ main.homepage > section.introduction {
   padding: 0;
 }
 main.homepage > section.introduction > i {
-  font-family: "Courier New";
+  font-family: 'Courier New';
   font-style: normal;
   position: absolute;
   top: calc((1.5rem + 2 * 0.3rem + 2 * 0.5rem) + 1rem);
@@ -784,8 +741,7 @@ main.homepage > section.introduction > div > mark {
   padding: var(--homepage-introduction-gap);
   margin-bottom: calc(var(--homepage-introduction-gap) * 2);
   border-radius: 2px;
-  box-shadow: 0 1px 2px 0
-    var(--homepage-introduction-announcement-background-color);
+  box-shadow: 0 1px 2px 0 var(--homepage-introduction-announcement-background-color);
   display: block;
 }
 main.homepage > section.introduction > div > h1,
@@ -856,7 +812,7 @@ main.homepage > section.introduction > div > p > mark {
   position: relative;
 }
 main.homepage > section.introduction > div > p > mark:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0.3rem;
   top: -0.4rem;
@@ -871,7 +827,7 @@ main.homepage > section.introduction > div > p > mark:before {
   padding: 0.2rem 0.25rem;
 }
 main.homepage > section.introduction > div > p > mark:after {
-  content: "";
+  content: '';
   position: absolute;
   left: -0.1rem;
   top: 0.2rem;
@@ -1180,12 +1136,8 @@ main.detail > section.photos > ul > li > a:hover {
 }
 main.homepage > section.volume > ul > li > a > img,
 main.detail > section.photos > ul > li > a > img {
-  width: calc(
-    (var(--max-width) - (5 * (var(--homepage-volume-description-gap) / 5))) / 4
-  );
-  height: calc(
-    (var(--max-width) - (5 * (var(--homepage-volume-description-gap) / 5))) / 4
-  );
+  width: calc((var(--max-width) - (5 * (var(--homepage-volume-description-gap) / 5))) / 4);
+  height: calc((var(--max-width) - (5 * (var(--homepage-volume-description-gap) / 5))) / 4);
   object-fit: scale-down;
   display: block;
 }
@@ -1233,7 +1185,7 @@ main.detail > section.photos > ul > li > a > img {
 main.homepage > section.trails {
   color: var(--homepage-trails-font-color);
   background-color: var(--homepage-trails-background-color);
-  background-image: url("../img/trails-background.png");
+  background-image: url('../img/trails-background.png');
   background-size: 250px;
   background-attachment: fixed;
   background-position: left bottom;
@@ -1241,15 +1193,10 @@ main.homepage > section.trails {
 }
 main.homepage > section.trails > div {
   background-color: var(--homepage-trails-background-color);
-  max-width: calc(
-    var(--max-width) + (2 * 2 * var(--homepage-trails-description-gap))
-  );
+  max-width: calc(var(--max-width) + (2 * 2 * var(--homepage-trails-description-gap)));
   margin-top: calc(var(--section-padding) * -1);
-  padding: var(--section-padding)
-    calc(2 * var(--homepage-trails-description-gap))
-    var(--homepage-trails-description-gap);
-  border-radius: 0 0 var(--homepage-trails-description-gap)
-    var(--homepage-trails-description-gap);
+  padding: var(--section-padding) calc(2 * var(--homepage-trails-description-gap)) var(--homepage-trails-description-gap);
+  border-radius: 0 0 var(--homepage-trails-description-gap) var(--homepage-trails-description-gap);
   box-shadow: 0 0 1rem var(--homepage-trails-background-color);
 }
 main.homepage > section.trails > div > h2,
@@ -1300,13 +1247,11 @@ main.detail > section.trails > ul > li > div:last-child {
 }
 main.homepage > section.trails > div > ul.trails > li:nth-child(even) {
   background-color: var(--homepage-trails-table-even-background-color);
-  box-shadow: 0 0 calc(var(--homepage-trails-description-gap) / 2) 0
-    var(--homepage-trails-background-color) inset;
+  box-shadow: 0 0 calc(var(--homepage-trails-description-gap) / 2) 0 var(--homepage-trails-background-color) inset;
 }
 main.detail > section.trails > ul > li:nth-child(even) {
   background-color: var(--detail-trails-table-even-background-color);
-  box-shadow: 0 0 calc(var(--detail-padding) / 2) 0
-    var(--detail-trails-background-color) inset;
+  box-shadow: 0 0 calc(var(--detail-padding) / 2) 0 var(--detail-trails-background-color) inset;
 }
 main.homepage > section.trails > div > ul.trails > li > div.distance,
 main.detail > section.trails > ul > li > div.distance {
@@ -1327,14 +1272,7 @@ main.homepage > section.trails > div > ul.trails > li > div.distance > h2 {
 main.detail > section.trails > ul > li > div.distance > h2 {
   margin-bottom: 0;
 }
-main.homepage
-  > section.trails
-  > div
-  > ul.trails
-  > li
-  > div.distance
-  > h2
-  > span,
+main.homepage > section.trails > div > ul.trails > li > div.distance > h2 > span,
 main.detail > section.trails > ul > li > div.distance > h2 > span {
   font-size: 1rem;
 }
@@ -1344,14 +1282,7 @@ main.homepage > section.trails > div > ul.trails > li > div.distance > div {
   align-items: flex-end;
   margin-bottom: calc(var(--homepage-trails-description-gap) / 4);
 }
-main.homepage
-  > section.trails
-  > div
-  > ul.trails
-  > li
-  > div.distance
-  > div
-  > span {
+main.homepage > section.trails > div > ul.trails > li > div.distance > div > span {
   margin-left: calc(var(--homepage-trails-description-gap) / 10);
 }
 main.homepage > section.trails > div > ul.trails > li > div.distance > meter {
@@ -1360,22 +1291,10 @@ main.homepage > section.trails > div > ul.trails > li > div.distance > meter {
   height: 10px;
   background-color: (--homepage-trails-meter-background-color);
 }
-main.homepage
-  > section.trails
-  > div
-  > ul.trails
-  > li
-  > div.distance
-  > meter::-webkit-meter-bar {
+main.homepage > section.trails > div > ul.trails > li > div.distance > meter::-webkit-meter-bar {
   height: 10px;
 }
-main.homepage
-  > section.trails
-  > div
-  > ul.trails
-  > li
-  > div.distance
-  > meter::-webkit-meter-optimum-value {
+main.homepage > section.trails > div > ul.trails > li > div.distance > meter::-webkit-meter-optimum-value {
   background-color: var(--homepage-trails-meter-background-color);
 }
 main.homepage > section.trails > div > ul.trails > li > div.description,
@@ -1409,13 +1328,7 @@ main.detail > section.trails > ul > li > div.link > a {
   padding: 0.3rem 0.3rem;
   border-radius: 3px;
 }
-main.homepage
-  > section.trails
-  > div
-  > ul.trails
-  > li
-  > div.link
-  > a::first-letter,
+main.homepage > section.trails > div > ul.trails > li > div.link > a::first-letter,
 main.detail > section.trails > ul > li > div.link > a::first-letter {
   font-size: 1rem;
 }
@@ -1453,8 +1366,7 @@ main.detail > section.trails > div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: calc(var(--homepage-trails-description-gap) / 2)
-    var(--homepage-trails-description-gap);
+  gap: calc(var(--homepage-trails-description-gap) / 2) var(--homepage-trails-description-gap);
 }
 main.homepage > section.trails > div > div > a,
 main.detail > section.trails > div > a {
@@ -1504,9 +1416,7 @@ main.detail > section.trails > div > a:hover {
   }
   main.detail > section.trails > ul > li > div.description,
   main.detail > section.trails > ul > li > div.route {
-    flex-basis: calc(
-      100% - 15ch - 2 * var(--homepage-trails-description-gap) / 2
-    );
+    flex-basis: calc(100% - 15ch - 2 * var(--homepage-trails-description-gap) / 2);
   }
 }
 @media (max-width: 850px) {
@@ -1523,9 +1433,7 @@ main.detail > section.trails > div > a:hover {
   }
   main.homepage > section.trails > div > ul.trails > li > div.description,
   main.homepage > section.trails > div > ul.trails > li > div.route {
-    flex-basis: calc(
-      100% - 15ch - 2 * var(--homepage-trails-description-gap) / 2
-    );
+    flex-basis: calc(100% - 15ch - 2 * var(--homepage-trails-description-gap) / 2);
   }
 }
 @media (max-width: 550px) {
@@ -1718,68 +1626,20 @@ main.list > section.table > ul > li:not(:first-child) > a > div:nth-child(2),
 main.list > section.table > ul > li:not(:first-child) > a > div:nth-child(4) {
   text-align: right;
 }
-main.list
-  > section.table
-  > ul
-  > li:not(:first-child)
-  > a
-  > div:nth-child(1)
-  > span {
+main.list > section.table > ul > li:not(:first-child) > a > div:nth-child(1) > span {
   text-decoration: underline;
 }
-main.list
-  > section.table
-  > ul
-  > li:not(:first-child)
-  > a:visited
-  > div:nth-child(1)
-  > span {
+main.list > section.table > ul > li:not(:first-child) > a:visited > div:nth-child(1) > span {
   text-decoration-color: var(--list-table-visited-link-underline-color);
 }
-main.list
-  > section.table
-  > ul
-  > li:not(:first-child)
-  > a
-  > div:nth-child(3)
-  > span,
-main.list
-  > section.table
-  > ul
-  > li:not(:first-child)
-  > a
-  > div:nth-child(4)
-  > span:first-child,
-main.list
-  > section.table
-  > ul
-  > li:not(:first-child)
-  > a
-  > div:nth-child(5)
-  > span,
-main.registration
-  > section.form
-  > form
-  > ul
-  > li:not(:first-child)
-  > div
-  > span,
-main.registration
-  > section.form
-  > form
-  > ul
-  > li:not(:first-child)
-  > div
-  > label {
+main.list > section.table > ul > li:not(:first-child) > a > div:nth-child(3) > span,
+main.list > section.table > ul > li:not(:first-child) > a > div:nth-child(4) > span:first-child,
+main.list > section.table > ul > li:not(:first-child) > a > div:nth-child(5) > span,
+main.registration > section.form > form > ul > li:not(:first-child) > div > span,
+main.registration > section.form > form > ul > li:not(:first-child) > div > label {
   display: none;
 }
-main.registration
-  > section.form
-  > form
-  > ul
-  > li:not(:first-child)
-  > div.wider
-  > label {
+main.registration > section.form > form > ul > li:not(:first-child) > div.wider > label {
   display: initial;
 }
 main.list > section.table > ul > li:first-child > *:nth-child(1),
@@ -1823,7 +1683,7 @@ main.list > section.stats > div > table > tbody td > a {
   text-decoration: none;
 }
 main.list > section.stats > div > table > tbody td > a::before {
-  content: "";
+  content: '';
   display: inline-block;
   position: absolute;
   left: 0;
@@ -1863,12 +1723,7 @@ main.list > section.stats > div > table > tbody td > a::before {
   main.list > section.table > ul > li:not(:first-child) > a > div,
   main.list > section.table > ul > li:not(:first-child) > a > div:first-child,
   main.registration > section.form > form > ul > li:not(:first-child) > div,
-  main.registration
-    > section.form
-    > form
-    > ul
-    > li:not(:first-child)
-    > div:first-child {
+  main.registration > section.form > form > ul > li:not(:first-child) > div:first-child {
     border: none;
     padding-top: 0;
   }
@@ -1898,41 +1753,11 @@ main.list > section.stats > div > table > tbody td > a::before {
   main.list > section.table > ul > li:not(:first-child) > a > div:nth-child(5) {
     flex-basis: 100%;
   }
-  main.list
-    > section.table
-    > ul
-    > li:not(:first-child)
-    > a
-    > div:nth-child(3)
-    > span,
-  main.list
-    > section.table
-    > ul
-    > li:not(:first-child)
-    > a
-    > div:nth-child(4)
-    > span:first-child,
-  main.list
-    > section.table
-    > ul
-    > li:not(:first-child)
-    > a
-    > div:nth-child(5)
-    > span,
-  main.registration
-    > section.form
-    > form
-    > ul
-    > li:not(:first-child)
-    > div
-    > span,
-  main.registration
-    > section.form
-    > form
-    > ul
-    > li:not(:first-child)
-    > div
-    > label {
+  main.list > section.table > ul > li:not(:first-child) > a > div:nth-child(3) > span,
+  main.list > section.table > ul > li:not(:first-child) > a > div:nth-child(4) > span:first-child,
+  main.list > section.table > ul > li:not(:first-child) > a > div:nth-child(5) > span,
+  main.registration > section.form > form > ul > li:not(:first-child) > div > span,
+  main.registration > section.form > form > ul > li:not(:first-child) > div > label {
     display: initial;
   }
   main.list > section.table > ul > li:not(:first-child).top1,
@@ -2094,7 +1919,7 @@ main.registration > section.introduction > div > div.postit {
   background: #ffffcc;
   width: 10rem;
   padding: 1rem;
-  font-family: "Comic Sans MS";
+  font-family: 'Comic Sans MS';
   border-radius: 2px;
   box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
   transform: rotate(-6deg);
@@ -2202,7 +2027,7 @@ main.registration > section.form > form input.add {
   background-size: 1rem 1rem;
   background-repeat: no-repeat;
   background-position: left center;
-  background-image: url("../img/plus-square.svg");
+  background-image: url('../img/plus-square.svg');
 }
 @media (max-width: 895px) {
   /*stejny jak pro tabulky vyse*/
@@ -2210,59 +2035,27 @@ main.registration > section.form > form input.add {
     text-align: left;
     flex-basis: 100%;
   }
-  main.registration
-    > section.form
-    > form
-    > ul
-    > li:not(:first-child)
-    > div:not(.narrow) {
+  main.registration > section.form > form > ul > li:not(:first-child) > div:not(.narrow) {
     order: 1;
   }
-  main.registration
-    > section.form
-    > form
-    > ul
-    > li:not(:first-child)
-    > div:nth-child(1) {
+  main.registration > section.form > form > ul > li:not(:first-child) > div:nth-child(1) {
     font-weight: bold;
     flex-basis: 12ch;
   }
-  main.registration
-    > section.form
-    > form
-    > ul
-    > li:not(:first-child)
-    > div.narrow:last-child {
+  main.registration > section.form > form > ul > li:not(:first-child) > div.narrow:last-child {
     flex-basis: calc(100% - 12ch);
     text-align: right;
   }
 
-  main.registration
-    > section.form
-    > form
-    > ul
-    > li:not(:first-child)
-    > div.wider {
+  main.registration > section.form > form > ul > li:not(:first-child) > div.wider {
     flex-basis: 43ch;
   }
   main.registration > section.form > form > ul > li > div > input,
   main.registration > section.form > form > ul > li > div > select {
     width: auto;
   }
-  main.registration
-    > section.form
-    > form
-    > ul
-    > li:not(:first-child)
-    > div:not(.narrow)
-    > span,
-  main.registration
-    > section.form
-    > form
-    > ul
-    > li:not(:first-child)
-    > div
-    > label {
+  main.registration > section.form > form > ul > li:not(:first-child) > div:not(.narrow) > span,
+  main.registration > section.form > form > ul > li:not(:first-child) > div > label {
     display: inline-block;
     width: 10ch;
   }
@@ -2306,7 +2099,7 @@ footer > div > div.goto > a {
   height: 8ch;
   border-radius: 3px;
   background-color: rgba(255, 255, 255, 0.2);
-  background-image: url("../img/go-to-top.svg");
+  background-image: url('../img/go-to-top.svg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 3ch;
@@ -2354,7 +2147,7 @@ footer > p > small > a {
 }
 /* ******************************* */
 span.title::after {
-  content: "*";
+  content: '*';
 }
 a {
   color: inherit;
@@ -2491,14 +2284,14 @@ cite {
 }
 q,
 blockquote {
-  quotes: "„" "“" "‘" "’";
+  quotes: '„' '“' '‘' '’';
 }
 blockquote > * {
   /* added for ckeditor */
   display: inline-block;
 }
 blockquote {
-  quotes: "„" "“" "‘" "’";
+  quotes: '„' '“' '‘' '’';
   hanging-punctuation: first;
   padding-left: 1rem;
   display: block;
@@ -2514,7 +2307,7 @@ blockquote::after {
 }
 q[cite]::after,
 blockquote[cite]::after {
-  content: close-quote " (" attr(cite) ") ";
+  content: close-quote ' (' attr(cite) ') ';
 }
 figure {
   text-align: center;
